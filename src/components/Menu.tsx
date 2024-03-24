@@ -38,7 +38,7 @@ const appPages: AppPage[] = [
     mdIcon: cartSharp,
   },
   {
-    title: "History",
+    title: "Historydsada",
     url: "/folder/Outbox",
     iosIcon: paperPlaneOutline,
     mdIcon: paperPlaneSharp,
