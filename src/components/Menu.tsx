@@ -32,8 +32,14 @@ interface AppPage {
 
 const appPages: AppPage[] = [
   {
-    title: "Whislist",
-    url: "/folder/Whislist",
+    title: "Home",
+    url: "/folder/Home",
+    iosIcon: cartOutline,
+    mdIcon: cartSharp,
+  },
+  {
+    title: "Wishlist",
+    url: "/folder/Wishlist",
     iosIcon: cartOutline,
     mdIcon: cartSharp,
   },
