@@ -63,7 +63,7 @@ const Menu: React.FC = () => {
   const location = useLocation();
 
   return (
-    <Iocd nMenu contentId="main" type="overlay">
+    <IonMenu contentId="main" type="overlay">
       <IonContent>
         <IonList id="inbox-list">
           <IonListHeader>E-Commerce</IonListHeader>
@@ -92,7 +92,7 @@ const Menu: React.FC = () => {
           })}
         </IonList>
       </IonContent>
-    </Iocd>
+    </IonMenu>
   );
 };
 
